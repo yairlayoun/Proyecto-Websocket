@@ -17,8 +17,6 @@ router.get('/home', (req, res) => {
 });
 
 router.get('/', (req, res) => {
-  // Redirigir a la vista realTimeProducts.handlebars
-  res.redirect('/realtimeproducts');
 });
 
 router.get('/realtimeproducts', (req, res) => {
